@@ -46,7 +46,7 @@ export default function Index() {
             <img 
               src="https://cdn.poehali.dev/files/225273f3-4ed1-4972-970b-227510d362b6.png" 
               alt="Heavy Cheats Logo" 
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 object-contain brightness-0 invert"
             />
             <h1 className="text-2xl font-bold text-foreground">Heavy Cheats</h1>
           </div>
@@ -177,7 +177,7 @@ export default function Index() {
               <img 
                 src="https://cdn.poehali.dev/files/225273f3-4ed1-4972-970b-227510d362b6.png" 
                 alt="Heavy Cheats Logo" 
-                className="w-6 h-6 object-contain"
+                className="w-6 h-6 object-contain brightness-0 invert"
               />
               <span className="text-sm text-muted-foreground">
                 Heavy Cheats © 2024
