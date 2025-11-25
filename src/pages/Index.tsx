@@ -34,6 +34,14 @@ const cheats = [
     description: "Легковесный клиент с интуитивным интерфейсом",
     downloadUrl: "https://t.me/FreeCheats28/226",
     features: ["Reach", "Criticals", "Timer", "Auto Sprint"]
+  },
+  {
+    id: 5,
+    name: "Celestial Recode",
+    versions: "1.16.5",
+    description: "Переработанная версия популярного клиента с улучшенной стабильностью",
+    downloadUrl: "https://t.me/FreeCheats28/29",
+    features: ["Auto Clicker", "Velocity", "Blink", "Phase"]
   }
 ];
 
