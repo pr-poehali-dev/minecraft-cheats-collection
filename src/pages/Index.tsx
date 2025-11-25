@@ -27,7 +27,8 @@ const cheats = [
     versions: "1.16.5",
     description: "Стабильный чит с оптимизацией и широким набором возможностей",
     downloadUrl: "https://t.me/FreeCheats28/211",
-    features: ["Scaffold", "NoFall", "Fast Break", "Auto Totem"]
+    features: ["Scaffold", "NoFall", "Fast Break", "Auto Totem"],
+    logo: "https://cdn.poehali.dev/files/5c5628a7-7893-447e-88dd-44480daaa1d1.jpg"
   },
   {
     id: 4,
