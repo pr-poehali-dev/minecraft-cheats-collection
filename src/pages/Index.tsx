@@ -18,7 +18,8 @@ const cheats = [
     versions: "1.16.5",
     description: "Продвинутый клиент с акцентом на PvP и боевые модули",
     downloadUrl: "https://t.me/FreeCheats28/229",
-    features: ["Velocity", "Speed", "ESP", "Auto Armor"]
+    features: ["Velocity", "Speed", "ESP", "Auto Armor"],
+    logo: "https://cdn.poehali.dev/files/acf32afd-a856-490d-a1b3-b709061daf3f.jpg"
   },
   {
     id: 3,
