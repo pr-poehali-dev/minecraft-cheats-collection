@@ -9,7 +9,8 @@ const cheats = [
     versions: "1.12.2 + 1.16.5",
     description: "Мощный чит-клиент с расширенным функционалом для комфортной игры",
     downloadUrl: "https://t.me/FreeCheats28/262",
-    features: ["Kill Aura", "Fly", "X-Ray", "Auto Mine"]
+    features: ["Kill Aura", "Fly", "X-Ray", "Auto Mine"],
+    logo: "https://cdn.poehali.dev/files/1c5d6544-ba79-4ce3-bb17-d60b3b1deadf.jpeg"
   },
   {
     id: 2,
@@ -113,8 +114,16 @@ export default function Index() {
               >
                 <CardHeader>
                   <div className="flex items-start justify-between mb-2">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <Icon name="Box" size={24} className="text-primary" />
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors overflow-hidden">
+                      {cheat.logo ? (
+                        <img 
+                          src={cheat.logo} 
+                          alt={`${cheat.name} logo`}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <Icon name="Box" size={24} className="text-primary" />
+                      )}
                     </div>
                     <span className="text-xs px-2 py-1 bg-muted rounded text-muted-foreground">
                       {cheat.versions}
