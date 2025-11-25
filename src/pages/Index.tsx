@@ -36,7 +36,8 @@ const cheats = [
     versions: "1.16.5",
     description: "Легковесный клиент с интуитивным интерфейсом",
     downloadUrl: "https://t.me/FreeCheats28/226",
-    features: ["Reach", "Criticals", "Timer", "Auto Sprint"]
+    features: ["Reach", "Criticals", "Timer", "Auto Sprint"],
+    logo: "https://cdn.poehali.dev/files/b62a2b78-53bf-4f57-8af0-71cac254f0fe.jpeg"
   },
   {
     id: 5,
