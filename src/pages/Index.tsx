@@ -42,10 +42,12 @@ export default function Index() {
     <div className="min-h-screen bg-background">
       <nav className="border-b border-border bg-card/50 backdrop-blur-sm fixed w-full z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-              <span className="text-xl">⚔️</span>
-            </div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/225273f3-4ed1-4972-970b-227510d362b6.png" 
+              alt="Heavy Cheats Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <h1 className="text-2xl font-bold text-foreground">Heavy Cheats</h1>
           </div>
           <Button asChild variant="outline" size="sm">
@@ -172,9 +174,11 @@ export default function Index() {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-primary rounded flex items-center justify-center">
-                <span className="text-sm">⚔️</span>
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/225273f3-4ed1-4972-970b-227510d362b6.png" 
+                alt="Heavy Cheats Logo" 
+                className="w-6 h-6 object-contain"
+              />
               <span className="text-sm text-muted-foreground">
                 Heavy Cheats © 2024
               </span>
